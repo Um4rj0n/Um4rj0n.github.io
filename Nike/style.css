@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box; /* qutini o'lchamini o'zgartirmaydi */
+}
+
+header{
+    background: url(./Images/header_bg_image.jpg);
+    height: 660px;
+    background-repeat: no-repeat;
+}
+
+header nav{
+    display: flex;
+    width: 1110px;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+header nav .logo{
+    color: #cb0a15;
+    font-weight: 700;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+header nav ul{
+    display: flex;
+}
+
+header nav ul li a{
+    display: block;
+    padding: 22px 24px 21px 28px;
+    color: #4d4d4d;
+    font-weight: 700;
+    font-size: 18px;
+    text-decoration: none;
+    transition: .3s;
+}
+
+
+header nav ul li a:hover{
+    background: #515151;
+    color: #f7f7f7;
+}
+header nav ul li a.activ{
+    background: #515151;
+    color: #f7f7f7;
+}
+
+
+header .title{
+    text-align: center;
+    margin-top: 223px;
+}
+
+
+header .title h1{
+    color: #cb0a15;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 45px;
+}
+
+header .title p{
+    color: #4d4d4d;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+header .title p span{
+    color: #000000;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+
+/* .wrap{
+    width: 1000px;
+    height: 500px;
+    border: 5px solid red;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 0 100px;
+} */
+
+/* .wrap .box{
+    width: 100px;
+    height: 100px;
+    border: 2px solid blue;
+    margin: auto;
+    background: linear-gradient(45deg, yellow, red, blue, green, black, red);
+} */
+/* 
+ul li{
+text-align: center;
+margin-bottom: 50px;
+}
+
+.lorem{
+     text-decoration: none;
+}
+
+.lorem::after{
+    content: "";
+    display: block;
+    height: 1px;
+    width: 100%;
+    background: blue;
+}
+
+ */
+
+
+
+ /* ========================= main start */
+
+ main{
+     width: 1105px;
+     margin: auto;
+     display: flex;
+     justify-content: space-between;
+     padding: 100px 0;
+ }
+
+ main .main_left{
+     width: 540px;
+ }
+
+ main .main_right{
+     width: 535px;
+ }
+/* 
+ h1{
+     font-family: Mon;
+ } */
+
+main .main_left .left_info h2{
+    font-size: 25px;
+    font-weight: 700;
+    color: #2c2c2c;
+    margin-bottom: 31px;
+}
+main .main_left .left_info{
+    margin-top: 60px;
+    
+}
+main .main_left .left_info h2 span{
+    font-size: 20px;
+    color: #000000;
+}
+main .main_left .left_info p,
+main .main_right .right_box .box_info p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #919191;
+    line-height: 24px;
+}
+/* main p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #919191;
+    line-height: 24px;
+} */
+main .main_right .right_box{
+    display: flex;
+    justify-content: space-between;
+}
+main .main_right .right_box .box_info h2{
+    font-size: 20px;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 31px;
+}
+main .main_right .right_box .box_info{
+    margin-left: 30px;
+}
+main .main_right .right_box{
+    margin-bottom: 30px;
+}
+
+/* ==Footer */
+footer{
+    width: 100%;
+    background: #f9f9f9;
+    padding-top: 51px;
+    padding-bottom: 47px;
+}
+footer .footer_menu{
+    width: 994px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+footer .footer_menu .price h3{
+    font-size: 20px;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 22px;
+}
+footer .footer_menu .price h3 span{
+    color: #cb0a15;
+}
+footer .footer_menu .price ul li a{
+    color: #818181;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+footer .footer_menu .price ul li a:hover{
+    color: #cb0a15;
+}
