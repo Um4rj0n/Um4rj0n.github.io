@@ -1067,7 +1067,7 @@ img {
         margin-left: var(--mb-1);
         margin-right: var(--mb-1);
     }
-
+    
     .nav__menu {
         padding: 2rem 0.25rem 4rem;
     }
@@ -1079,7 +1079,9 @@ img {
     .home__content {
         grid-template-columns: .25fr 3fr;
     }
-
+    .home__description {
+        width: 292px;
+    }
     .skills__title {
         font-size: var(--normal-font-size) !important;
     }
